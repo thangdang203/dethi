@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'Pattaya';
+    src: url(Pattaya/Pattaya-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+}
+.header{
+    display: grid;
+    grid-template-columns: 620px 200px 620px;
+    background-color: #DEB97C;
+}
+.logo img{
+    height: 100px;
+    width: 150px;
+}
+ul{
+    padding-top: 40px;
+    padding-left: 100px;
+}
+li{
+    display: inline;
+}
+a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Pattaya';
+}
+.banner img{
+    height: 400px;
+    width: 1440px;
+}
+h2{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Pattaya';
+}
+p{
+    text-align: center;
+    padding-top: 25px;
+    font-family: 'Pattaya';
+}
+.nutbam{
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    font-family: 'Pattaya';
+}
+.anh{
+    display: grid;
+    grid-template-columns: 720px 720px;
+}
+.anh img{
+    height: 300px;
+    width: 600px;
+}
+.anh-1{
+    text-align: center;
+}
+.anhvatext{
+    display: grid;
+    grid-template-columns: 720px 720px;
+}
+.anhvatext img{
+    height: 350px;
+    width: 600px;
+    padding-top: 25px;
+}
+.anh1{
+    padding-left: 60px;
+}
+#mot{
+    padding-right: 400px;
+    padding-left: 10px;
+    font-family: 'Pattaya';
+}
+#hai{
+    text-align: left;
+    padding-left: 90px;
+}
+#ba{
+    padding-left: 90px;
+    padding-top: 15px;
+    font-family: 'Pattaya';
+}
+.tam{
+    display: grid;
+    grid-template-columns: 480px 480px 480px;
+    padding-top: 50px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+.tam img{
+    height: 200px;
+    width: 300px;
+}
+.tu{
+    display: grid;
+    grid-template-columns: 360px 360px 360px 360px;
+}
+.text-1 img{
+    padding-left: 150px
+}
+#tech{
+    text-align: center;
+    font-family: 'Pattaya';
+}
+h3{
+    text-align: center;
+}
+#hatba{
+    padding-bottom: 30px;
+    padding-top: 50px;
+    font-family: 'Pattaya';
+}
+.maincontent{
+    background-color: #DEB97C;
+}
+.footer{
+    background-color: #DEB97C;
+}
+h4{
+    font-family: 'Pattaya';
+}
+a:hover{
+    color: aqua;
+}
+h2:hover{
+    color: aqua;
+}
+p:hover{
+    color: aqua;
+}
+h3:hover{
+    color: aqua;
+}
+h4:hover{
+    color: aqua;
+}
+.logo img:hover{
+    transform: scale(1.1);
+}
+.banner img:hover{
+    transform: scale(1.1);
+}
+.anh img:hover{
+    transform: scale(1.1);
+}
+.anh1 img:hover{
+    transform: scale(1.1);
+}
+.tam img:hover{
+    transform: scale(1.1);
+}
+.text-1 img:hover{
+    transform: scale(1.1);
+}
